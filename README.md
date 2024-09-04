@@ -41,3 +41,7 @@ npm run allure:report: Executa os testes e gera um relatório com Allure.
 ## Github Actions
 
 O projeto está configurado para rodar testes automaticamente usando GitHub Actions. O workflow está definido em .github/workflows/playwright.yml e executa os testes em um ambiente Ubuntu.
+
+Toda vez que rodar a pipeline, é gerado um novo relatório. Link para acessar o relatório gerado: https://freitasgabi.github.io/teste-tecnico/ ou acessar GitHub Actions selecionar o último job para acessar o arquivo do relatório para download como zip.
+
+A pipeline é disparada automaticamente em qualquer alteração na branch main.

@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1414","Validate Login as Admin and Validate Home Page","Chromium","Wed Sep 04 22:20:13 UTC 2024","passed","Wed Sep 04 22:20:14 UTC 2024","Login and Home Page Tests","login.test.js","",""
-"","1094","Validate Login with accessibility using the tab and enter keys and check logout","Chromium","Wed Sep 04 22:20:15 UTC 2024","passed","Wed Sep 04 22:20:16 UTC 2024","Login and Home Page Tests","login.test.js","",""
-"","1057","Validate Login as Test user and check page after click on Back Btn","Chromium","Wed Sep 04 22:20:14 UTC 2024","passed","Wed Sep 04 22:20:15 UTC 2024","Login and Home Page Tests","login.test.js","",""
+"","946","Validate Login as Test user and check page after click on Back Btn","Chromium","Wed Sep 04 22:29:14 UTC 2024","passed","Wed Sep 04 22:29:14 UTC 2024","Login and Home Page Tests","login.test.js","",""
+"","1789","Validate Login as Admin and Validate Home Page","Chromium","Wed Sep 04 22:29:12 UTC 2024","passed","Wed Sep 04 22:29:14 UTC 2024","Login and Home Page Tests","login.test.js","",""
+"","975","Validate Login with accessibility using the tab and enter keys and check logout","Chromium","Wed Sep 04 22:29:14 UTC 2024","passed","Wed Sep 04 22:29:15 UTC 2024","Login and Home Page Tests","login.test.js","",""

@@ -1,4 +1,4 @@
-# Project
+# Teste técnico
 
 Este projeto utiliza Playwright com Javascript para testes automatizados e Allure para a geração de relatórios.
 

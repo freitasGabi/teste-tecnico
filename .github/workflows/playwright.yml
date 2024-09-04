@@ -14,7 +14,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [16.x]
 
     steps:
       - name: Checkout repository
@@ -34,7 +34,7 @@ jobs:
         run: npx playwright install
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: npx playwright test --reporter=allure-playwright
 
       - name: Generate Allure Report
         run: |
@@ -51,3 +51,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: allure-report
+          user_name: 'github-actions'
+          user_email: 'github-actions@github.com'

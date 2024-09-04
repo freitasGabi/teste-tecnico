@@ -16,7 +16,7 @@ module.exports = {
     },
   ],
   use: {
-    headless: false,
+    headless: true,
     video: 'on',
     screenshot: 'on',
   },
